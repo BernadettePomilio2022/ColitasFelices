@@ -1,0 +1,47 @@
+body {background-color: #F8FA41;
+      font-family:'Roboto', sans-serif; ;}
+
+/*.container{ background-image: url(CF.jpg);
+            width: 600px;
+            margin: 0px;
+           padding: 370px;
+         
+       }*/
+
+       .container{ background-image: url(CF.jpg);
+        width: 100vw;
+        height: 50vw;
+        margin: 0px;
+       padding: 0px;}
+
+       #barra {
+        display: flex;
+        justify-content: center;
+       }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F1C40F;
+  }
+  
+
+
+  li {float: left;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #F8FA41;
+}
