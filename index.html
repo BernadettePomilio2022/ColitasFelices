@@ -5,43 +5,194 @@
         <title> Colitas Felices </title>
         <link rel="stylesheet" href="CF.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
-
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-
-
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     </head>
     <body> 
         <header class="navbar">
-            <div class="container">
-        <div id="barra">
-            <nav>  
-        <ul><li><a href="#ancla1"> Nosotros </a></li> 
-            <li><a href="#ancla2"> Adopcion</a></li>
-            <li><a href="#ancla3"> Perritos</a></li>
-            <li><a href="#ancla4"> Gatitos</a> </li>
-            <li><a href="#ancla5"> Contactos</a></li>
-        </ul> 
-        </nav> 
+            <div class="container-barra">
+                <div id="barra">
+                    <nav class="barra">  
+                        <ul class="menu">
+                            <li><a href="#ancla1"> Nosotros </a></li> 
+                            <li><a href="#ancla2"> Adopcion</a></li>
+                            <li><a href="#ancla3"> Perritos</a></li>
+                            <li><a href="#ancla4"> Gatitos</a> </li>
+                            <li><a href="#ancla5"> Contactos</a></li>
+                        </ul> 
+                    </nav> 
+                </div>
+            </div>
+        </header>
+
+        <h1> Colitas Felices</h1>
+
+        <a name="ancla1"> <h2>Nosotros </h2></a>
+
+        <p>Colitas Felices es una  organización sin fines de lucro liderada por un grupo de voluntarios que buscan superar la situación de sobrepoblación, abandono, crueldad e indiferencia que viven millones de animales en nuestro país.
+            Propiciamos una actitud de respeto hacia todas las especies, entendiendo que no son “cosas” para ser utilizadas por el ser humano. 
+            Rechazamos todo tipo de explotación animal, incluyendo su uso como vestimenta, comida, entretenimiento y experimentación. </p>
+        
+        <a name="ancla2"> <h2>Adopcion </h2></a>
+
+        <div class="texto">
+            
+            <h3>Leer antes de comenzar</h3>
+    
+               <p>Los perritos y gatitos se entregan con compromiso de castración y SEGUIMIENTO. 
+    
+                 Compromiso de CONTACTARNOS si en algún momento decidís
+                 que no podés tener más a tu perrito, sea por la razón que sea, 
+                 ya que nosotros nos ocuparemos de encontrarles una nueva familia.
+    
+                Llenar este cuestionario no garantiza la adopción de una mascota. 
+                En base a los cuestionarios que llegan se elige a los futuros dueños
+                 de las mascotas y sólo nos comunicamos con ellos. Si no nos volvemos 
+                 a contactar con vos significa que lamentablemente no pudimos 
+                 elegirte como futuro dueño/a. Por favor no te lo tomes de forma 
+                 personal, cuando hay mascotas en adopción recibimos muchísimo 
+                 interés y es muy difícil elegir, hacemos lo que podemos.<br>
+    
+                ¡Gracias por elegir la adopción!</p>
+    
+    
         </div>
-    </div>
-</header>
-        <br>
- <h1> Colitas Felices</h1>
+    
+        <form  action="https://formspree.io/f/xkneqlee" method="POST" id="form">
+    
+    
+            <div class="form">
+                <h4>DATOS REQUERIDOS</h4>
+                <div class="grupo">
+                    <input  class="input-form" type="text" name="name" id="name" required><span class="barra"></span> 
+                    <label for="">Nombre</label>
+                </div>
+                <div class="grupo">
+                    <input class="input-form"  type="text" name="apellido" id="name" required><span class="barra"></span> 
+                    <label for="">Apellidos</label>
+                </div>
+                <div class="grupo">
+                    <input class="input-form"  type="tel" name="edad" id="name" required><span class="barra"></span> 
+                    <label for="">Edad</label>
+                </div>
+                <div class="grupo">
+                    <input  class="input-form" type="email" name="email" id="name" required><span class="barra"></span> 
+                    <label for="">Email</label>
+                </div>
+                <div class="grupo">
+                    <input class="input-form"  type="tel" name="telefono" id="name" required><span class="barra"></span> 
+                    <label for="">Celular</label>
+                </div>
+                <div class="grupo">
+                    <input class="input-form"  type="text" name="texto" id="name" required><span class="barra"></span> 
+                    <label for="">¿Que tipo de mascota deseas adoptar?</label>
+                </div>       
+    
+                <div class="grupo">
+                    <input class="input-form"  type="text" name="texto" id="name" required><span class="barra"></span> 
+                    <label for="">Barrio en que vivís</label>
+                </div>
+                <div class="grupo">
+                    <input class="input-form"  type="text" name="texto" id="name" required><span class="barra"></span> 
+                    <label for="">¿Contás con medio de traslado para tu nueva mascota?</label>
+                </div>
+    
+                </div>
+    
+    
+                <button type="submit">ENVIAR</button>
+    
+            </div>
+    
+    
+    
+        </form>
 
- <a name="ancla1"> <h2>Nosotros </h2></a>
-
- <p>Colitas Felices es una  organización sin fines de lucro liderada por un grupo de voluntarios que buscan superar la situación de sobrepoblación, abandono, crueldad e indiferencia que viven millones de animales en nuestro país.<br>
-    Propiciamos una actitud de respeto hacia todas las especies, entendiendo que no son “cosas” para ser utilizadas por el ser humano. <br>
-    Rechazamos todo tipo de explotación animal, incluyendo su uso como vestimenta, comida, entretenimiento y experimentación. </p>
  
- <a name="ancla2"> <h2>Adopcion </h2></a>
+        <a name="ancla3"> <h2>Perritos </h2></a>
+        <div class="colitas_slider">
+                <div class="container">
+                    <div class="puntitos">
+                    <input type="radio" name="slider" id="item-9" checked>
+                    <input type="radio" name="slider" id="item-10">
+                    <input type="radio" name="slider" id="item-11">
+                    <input type="radio" name="slider" id="item-12">
+                    <input type="radio" name="slider" id="item-13">
+                    <input type="radio" name="slider" id="item-14">
+                    <input type="radio" name="slider" id="item-15">
+                    <input type="radio" name="slider" id="item-16">
+                    <input type="radio" name="slider" id="item-17">
+                    </div> 
+                    <div class="cards">
+                        <label class="card" for="item-9" id="selector-9"><img src="/Perritos/Perrito_0.jpg"></label>
+                        <label class="card" for="item-10" id="selector-10"><img src="/Perritos/Perrito_1.jpg"></label>
+                        <label class="card" for="item-11" id="selector-11"><img src="/Perritos/Perrito_2.jpg"></label>
+                        <label class="card" for="item-12" id="selector-12"><img src="/Perritos/Perrito_3.jpg"></label>
+                        <label class="card" for="item-13" id="selector-13"><img src="/Perritos/Perrito_4.jpg"></label>
+                        <label class="card" for="item-14" id="selector-14"><img src="/Perritos/Perrito_5.jpg"></label>
+                        <label class="card" for="item-15" id="selector-15"><img src="/Perritos/Perrito_6.jpg"></label>
+                        <label class="card" for="item-16" id="selector-16"><img src="/Perritos/Perrito_7.jpg"></label>
+                        <label class="card" for="item-17" id="selector-17"><img src="/Perritos/Perrito_8.jpg"></label>
+                    </div>
+                </div>
+            </div>
 
- <a name="ancla3"> <h2>Perritos </h2></a>
+
+        <a name="ancla4"> <h2>Gatitos </h2></a>
+        <div class="colitas_slider">
+                <div class="container">
+                 <div class="puntitos">  
+                    <input type="radio" name="slider" id="item-0" checked>
+                    <input type="radio" name="slider" id="item-1">
+                    <input type="radio" name="slider" id="item-2">
+                    <input type="radio" name="slider" id="item-3">
+                    <input type="radio" name="slider" id="item-4">
+                    <input type="radio" name="slider" id="item-5">
+                    <input type="radio" name="slider" id="item-6">
+                    <input type="radio" name="slider" id="item-7">
+                    <input type="radio" name="slider" id="item-8">
+                 </div> 
+                    <div class="cards">
+                        <label class="card" for="item-0" id="selector-0"><img src="/Gatitos/Gatito_0.jpg"></label>
+                        <label class="card" for="item-1" id="selector-1"><img src="/Gatitos/Gatito_1.jpg"></label>
+                        <label class="card" for="item-2" id="selector-2"><img src="/Gatitos/Gatito_2.jpg"></label>
+                        <label class="card" for="item-3" id="selector-3"><img src="/Gatitos/Gatito_3.jpg"></label>
+                        <label class="card" for="item-4" id="selector-4"><img src="/Gatitos/Gatito_4.jpg"></label>
+                        <label class="card" for="item-5" id="selector-5"><img src="/Gatitos/Gatito_5.jpg"></label>
+                        <label class="card" for="item-6" id="selector-6"><img src="/Gatitos/Gatito_6.jpg"></label>
+                        <label class="card" for="item-7" id="selector-7"><img src="/Gatitos/Gatito_7.jpg"></label>
+                        <label class="card" for="item-8" id="selector-8"><img src="/Gatitos/Gatito_8.jpg"></label>
+                    </div>
+                </div>
+                </div>
+
+                <a name="ancla5"> <h2>Contactanos </h2></a>
+                <div class="contactanos">
+                 +54 9 11 5741-0101<br>
+
+                  Veterinaria: 4234-6866<br>
+
+                  Pensionado 3591-08801<br>
+
+                  info@colitasfelices.com.ar <br>
+
+                  Araoz 282 - CABA<br>
+
+                  Rivadavia 277 - Temperley<br>
  
+                  Laprida 852 - Lomas de Zamora <br>
 
- <a name="ancla4"> <h2>Gatitos </h2></a>
+                  Horarios <br>
+                  PENSIONADO - Lunes a Domingo: 8.00 am a 20 pm <br>
 
- <a name="ancla5"> <h2>Contactanos </h2></a>
+                  VETERINARIA - Lunes a Domingo: las 24hs. <br>
+
+                  FERIADOS INCLUSIVE <br>
+                </div>
+ 
+   
+    
+    
+ 
 
 
     </body>
