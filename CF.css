@@ -317,11 +317,11 @@ input:valid~label{
   width: 0%;
   bottom: 0;
   position: absolute;
-  background: #EDC2F2  /* fallback for old browsers */
+  background: #EDC2F2;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #3CD3AD, #4CB8C4);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #3CD3AD, #4CB8C4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   transition: 0.3s ease width;
-  left 0;
+  left: 0;
 }
 
 input:focus~.barra::before{
@@ -346,7 +346,7 @@ button{
   border-radius: 10px;
 }
 
-@media screen and (max-width 500px) {
+@media screen and (max-width: 500px) {
   .form{
       width: 80%;
 
